@@ -25,10 +25,9 @@ $(document).ready(function() {
                     game = data.stream.game;
                     status = "online";
                 }
-            });
 
-            // GET JSON for Channels
-            $.getJSON(makeURL("channels",channel), function(data) {
+             // GET JSON for Channels
+             $.getJSON(makeURL("channels",channel), function(data) {
                 let logo = data.logo != null ? data.logo : "https://www.dummyimage.com/50x50/000/fff.jpg&text=channel",
                 name = data.display_name != null ? data.display_name : channel,
                 description = status === 'online' ? `: ${data.status}` : "";
@@ -41,6 +40,11 @@ $(document).ready(function() {
                     <span>${description}</span></article></article>`;
                 status === "online" ? $("#display").prepend(html) : $("#display").append(html);
             });
+
+
+            });
+
+           
 
         });
     }
