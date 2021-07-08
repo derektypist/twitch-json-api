@@ -14,7 +14,16 @@ $(document).ready(function() {
             // GET JSON for Streams 
             $.getJSON(makeURL("streams",channel), function(data) {
                 let game,status;
-
+                if (data.stream === null) {
+                    game = "Offline";
+                    status = "offline";
+                } else if (data.stream === undefined) {
+                    game = "Account Closed";
+                    status = "offline";
+                } else {
+                    game = data.stream.game;
+                    status = "online";
+                }
             });
 
         });
