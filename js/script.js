@@ -14,11 +14,27 @@ $(document).ready(function() {
             // GET JSON for Streams 
             $.getJSON(makeURL("streams",channel), function(data) {
                 let game,status;
-                
+
             });
 
         });
     }
+
+    // Clicks on Buttons
+    $('.online').click(function() {
+        $('.players-online').show();
+        $('.players-offline').hide();
+    });
+
+    $('.offline').click(function() {
+        $('.players-online').hide();
+        $('.players-offline').show();
+    });
+
+    $('.all').click(function() {
+        $('.players-online').show();
+        $('.players-offline').show();
+    });
 
 
 
