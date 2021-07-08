@@ -1,11 +1,9 @@
 /* Global Styles */
 body {
     font-family: "Roboto",Arial,Verdana,sans-serif;
-}
-
-header {
     background: lightblue;
 }
+
 
 /* Button Styles */
 button {
