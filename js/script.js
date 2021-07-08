@@ -33,7 +33,7 @@ $(document).ready(function() {
                 description = status === 'online' ? `: ${data.status}` : "";
                 let html = `<article class="row players-${status}">
                     <article class="col-xs-2 col-sm-1">
-                    <img src="${logo}"></article>
+                    <img src="${logo}" alt="Channel Logo"></article>
                     <article class="col-sm-3 col-xs-10" id="name">
                     <a href="${data.url}" target="_blank">${name}</a></article>
                     <article class="col-xs-10 col-sm-8" id="streaming">${game}
