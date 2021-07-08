@@ -11,6 +11,10 @@ As a user, if a Twitch user is currently streaming, I can see additional details
 
 Array of the Twitch.tv users who regularly stream are ["ESL_SC2","OgamingSC2","cretetion","freecodecamp","storbeck","habathcx","RobotCaleb","noobs2ninjas"].
 
+## Features
+
+
+
 ## Credits
 
 ### Content
@@ -24,3 +28,4 @@ GitHub Repository of RyKizil in the Twitch.tv JSON API (Did a GitHub Search in t
 - [freeCodeCamp](https://www.freecodecamp.org)
 - [Twitch.tv](https://twitch.tv)
 - [RyKizil](https://github.com/RyKizil/TwitchTv-json-api/blob/master/main.js)
+- [DummyImage](https://www.dummyimage.com)
