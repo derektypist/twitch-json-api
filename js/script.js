@@ -28,7 +28,13 @@ $(document).ready(function() {
 
             // GET JSON for Channels
             $.getJSON(makrURL("channels",channel), function(data) {
-                
+                let logo = data.logo != null ? data.logo : "https://www.dummyimage.com/50x50/000/fff.jpg&text=channel",
+                name = data.display_name != null ? data.display_name : channel,
+                description = status === 'online' ? `: ${data.status}` : "",
+                html = `<article class="row players-${status}">
+                    <article class="col-xs-2 col-sm-1">
+                    <img src="${logo}"></article>
+                    <article class="col-sm-3 col-xs-8">`;
             });
 
         });
