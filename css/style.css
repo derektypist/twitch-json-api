@@ -46,6 +46,7 @@ img {
 
 #name, #streaming {
     line-height: 25px;
+    height: 65px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
