@@ -5,17 +5,17 @@ body {
 
 /* Button Styles */
 button {
-    width: 1.25rem;
+    width: 150px;
 }
 
 .all:hover {
-    color: lightpink;
+    background: lightpink;
 }
 
 .online:hover {
-    color: lightgreen;
+    background: lightgreen;
 }
 
 .offline:hover {
-    color: lightgrey;
+    background: lightgrey;
 }
