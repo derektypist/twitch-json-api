@@ -17,8 +17,10 @@ Array of the Twitch.tv users who regularly stream are ["ESL_SC2","OgamingSC2","c
 
 Taken from https://codepen.io/freeCodeCamp/full/Myvqmo/
 Documentation about Twitch.tv's JSON API at https://dev.twitch.tv/docs/api/reference/#get-streams
+GitHub Repository of RyKizil in the Twitch.tv JSON API (Did a GitHub Search in twitch-json-api)
 
 ### Acknowledgements
 
 - [freeCodeCamp](https://www.freecodecamp.org)
 - [Twitch.tv](https://twitch.tv)
+- [RyKizil](https://github.com/RyKizil/TwitchTv-json-api/blob/master/main.js)
