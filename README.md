@@ -13,7 +13,7 @@ Array of the Twitch.tv users who regularly stream are ["ESL_SC2","OgamingSC2","c
 
 ## Features
 
-Allows you to filter online players, offline players and all players.  Goes to
+Allows you to filter online players, offline players and all players.  Takes you to the Twitch Streaming Channel without leaving the page.
 
 ## Technologies
 
