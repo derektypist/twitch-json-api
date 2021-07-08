@@ -9,9 +9,14 @@ $(document).ready(function() {
     function getChannelInfo() {
         channels.forEach(function(channel) {
             function makeURL(type,name) {
-                return `https://twitch-proxy.freecodecamp.rocks/twitch-api/${type}/${name}?callback=?';
+                return `https://twitch-proxy.freecodecamp.rocks/twitch-api/${type}/${name}?callback=?`;
             };
-            
+            // GET JSON for Streams 
+            $.getJSON(makeURL("streams",channel), function(data) {
+                let game,status;
+                
+            });
+
         });
     }
 
