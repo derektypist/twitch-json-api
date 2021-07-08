@@ -4,6 +4,6 @@ body {
 }
 
 /* Button Styles */
-.my-button {
+.my-button, header {
     background: lightblue;
 }
