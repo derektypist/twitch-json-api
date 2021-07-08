@@ -2,3 +2,8 @@
 body {
     font-family: "Roboto",Arial,Verdana,sans-serif;
 }
+
+/* Button Styles */
+.my-button {
+    padding: 0.8rem;
+}
