@@ -8,6 +8,7 @@ $(document).ready(function() {
     // Function to Get Channel Information
     function getChannelInfo() {
         channels.forEach(function(channel) {
+            // Function to Make URL
             function makeURL(type,name) {
                 return `https://twitch-proxy.freecodecamp.rocks/twitch-api/${type}/${name}?callback=?`;
             }
@@ -41,30 +42,27 @@ $(document).ready(function() {
                 status === "online" ? $("#display").prepend(html) : $("#display").append(html);
             });
 
-
             });
-
-           
 
         });
     }
 
-    // Clicks on Buttons
+    // Show Online Players
     $('.online').click(function() {
         $('.players-online').show();
         $('.players-offline').hide();
     });
 
+    // Show Offline Players
     $('.offline').click(function() {
         $('.players-online').hide();
         $('.players-offline').show();
     });
 
+    // Show All Players
     $('.all').click(function() {
         $('.players-online').show();
         $('.players-offline').show();
     });
-
-
 
 });
