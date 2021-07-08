@@ -26,6 +26,11 @@ $(document).ready(function() {
                 }
             });
 
+            // GET JSON for Channels
+            $.getJSON(makrURL("channels",channel), function(data) {
+                
+            });
+
         });
     }
 
