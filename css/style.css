@@ -39,3 +39,15 @@ img {
     border-radius: 50%;
     border: 1px solid white;
 }
+
+#streaming {
+    font-style: italic;
+}
+
+#name, #streaming {
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
