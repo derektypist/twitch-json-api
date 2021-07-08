@@ -37,7 +37,7 @@ $(document).ready(function() {
                     <article class="col-sm-3 col-xs-10" id="name">
                     <a href="${data.url}" target="_blank">${name}</a></article>
                     <article class="col-xs-10 col-sm-8" id="streaming">${game}
-                    <span>${description}</span></article></article>`;
+                    <span> ${description}</span></article></article>`;
                 status === "online" ? $("#display").prepend(html) : $("#display").append(html);
             });
 
