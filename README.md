@@ -11,6 +11,8 @@ As a user, if a Twitch user is currently streaming, I can see additional details
 
 Array of the Twitch.tv users who regularly stream are ["ESL_SC2","OgamingSC2","cretetion","freecodecamp","storbeck","habathcx","RobotCaleb","noobs2ninjas"].
 
+[Wireframe](wireframes/wireframe-twitch-json-api.png) is included.
+
 ## Features
 
 Allows you to filter online players, offline players and all players.  Takes you to the Twitch Streaming Channel without leaving the page.
