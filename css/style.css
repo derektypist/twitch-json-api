@@ -23,3 +23,19 @@ button {
 .offline:hover {
     background: lightgrey;
 }
+
+/* Players and Image */
+.players-online {
+    background: #a0daa9;
+}
+
+.players-offline {
+    background: #f5dfad;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
