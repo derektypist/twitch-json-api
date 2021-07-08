@@ -10,7 +10,8 @@ $(document).ready(function() {
         channels.forEach(function(channel) {
             function makeURL(type,name) {
                 return `https://twitch-proxy.freecodecamp.rocks/twitch-api/${type}/${name}?callback=?`;
-            };
+            }
+
             // GET JSON for Streams 
             $.getJSON(makeURL("streams",channel), function(data) {
                 let game,status;
@@ -27,7 +28,7 @@ $(document).ready(function() {
             });
 
             // GET JSON for Channels
-            $.getJSON(makrURL("channels",channel), function(data) {
+            $.getJSON(makeURL("channels",channel), function(data) {
                 let logo = data.logo != null ? data.logo : "https://www.dummyimage.com/50x50/000/fff.jpg&text=channel",
                 name = data.display_name != null ? data.display_name : channel,
                 description = status === 'online' ? `: ${data.status}` : "";
