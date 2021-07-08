@@ -3,6 +3,10 @@ body {
     font-family: "Roboto",Arial,Verdana,sans-serif;
 }
 
+header {
+    background: lightblue;
+}
+
 /* Button Styles */
 button {
     width: 150px;
